@@ -16,9 +16,9 @@ class Tools {
 public:
     static std::string ZHX(const std::string &input);
     static std::chrono::seconds DecodeTimeNotation(const std::string &TimeStr);
-    static std::string Tools::EncodeTimeNotation(int ts);
-    static std::string Tools::EncodeTimeNotation(std::chrono::seconds t);
-    static std::chrono::seconds Tools::GetCurrentUnixTimestamp();
+    static std::string EncodeTimeNotation(int ts);
+    static std::string EncodeTimeNotation(std::chrono::seconds t);
+    static std::chrono::seconds GetCurrentUnixTimestamp();
 };
 
 #endif
